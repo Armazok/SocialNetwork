@@ -1,0 +1,30 @@
+.profileInfoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .leftContainer {
+    min-width: 250px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rightContainer {
+    width: 70%;
+    margin-left: 20px;
+  }
+
+}
+
+.container {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}

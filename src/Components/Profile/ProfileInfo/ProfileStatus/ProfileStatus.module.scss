@@ -1,0 +1,28 @@
+.container {
+  border-radius: 3px;
+  margin: 10px 0;
+  display: inline-block;
+
+  &.owner {
+    cursor: pointer;
+
+    &:hover {
+      background-color: #efeef2;
+    }
+  }
+
+  .status {
+    position: relative;
+    padding: 0 20px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.1s background-color ease-in;
+
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}
